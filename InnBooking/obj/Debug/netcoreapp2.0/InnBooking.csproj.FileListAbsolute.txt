@@ -1,0 +1,11 @@
+C:\Users\s\Source\repos\InnBooking\InnBooking\bin\Debug\netcoreapp2.0\InnBooking.deps.json
+C:\Users\s\Source\repos\InnBooking\InnBooking\bin\Debug\netcoreapp2.0\InnBooking.runtimeconfig.json
+C:\Users\s\Source\repos\InnBooking\InnBooking\bin\Debug\netcoreapp2.0\InnBooking.runtimeconfig.dev.json
+C:\Users\s\Source\repos\InnBooking\InnBooking\bin\Debug\netcoreapp2.0\InnBooking.dll
+C:\Users\s\Source\repos\InnBooking\InnBooking\obj\Debug\netcoreapp2.0\InnBooking.csprojResolveAssemblyReference.cache
+C:\Users\s\Source\repos\InnBooking\InnBooking\obj\Debug\netcoreapp2.0\InnBooking.csproj.CoreCompileInputs.cache
+C:\Users\s\Source\repos\InnBooking\InnBooking\obj\Debug\netcoreapp2.0\InnBooking.AssemblyInfoInputs.cache
+C:\Users\s\Source\repos\InnBooking\InnBooking\obj\Debug\netcoreapp2.0\InnBooking.AssemblyInfo.cs
+C:\Users\s\Source\repos\InnBooking\InnBooking\bin\Debug\netcoreapp2.0\InnBooking.pdb
+C:\Users\s\Source\repos\InnBooking\InnBooking\obj\Debug\netcoreapp2.0\InnBooking.dll
+C:\Users\s\Source\repos\InnBooking\InnBooking\obj\Debug\netcoreapp2.0\InnBooking.pdb
