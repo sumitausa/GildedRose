@@ -33,10 +33,10 @@ I chose these tools since they are the most I am familiar with.
 
 1. The system has some fake data set up in it , so you can test the various endpoints by giving today's date as a parameter.
 
-2. The dates in the system need to be entered in the format of mm/dd/yyyy or mm/dd/yy
+2. The system's enpoints have all the parameters as required parameters.
 
 3. The ViewBookings will give an error message if there was an issue with the booking 
-    * -2 : Error code if you enter a number greater than inn's max number of ppl or max number of luggaes
+    * -2 : Error code if you enter a number greater than inn's max number of ppl or max number of luggages
     * -3 : Try to book a date in the past
     * -1 : Could not book a room for a given date/person/luggage/requirements
     
@@ -57,7 +57,7 @@ There are so many improvements to be made to the project if I had unlimited time
 
 1. Allow the gnome's schedule to be entered, viewed, edited, added
 
-2. Allow rooms to be viewed, entered, edited
+2. Allow rooms to be viewed, entered, edited. Provide the room cost for a booking.
 
 3. Clean the booking and the room occupied information that is in the database periodically, archive it by using a script every few days
 
