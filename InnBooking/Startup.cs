@@ -26,7 +26,7 @@ namespace InnBooking
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Guilded Rose API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Gilded Rose API", Version = "v1" });
             });
         }
 
