@@ -2,7 +2,7 @@
 
 ## Information on how to setup our environments to run your application.
 
-1. Install Visual Studio Community 2017
+1. Install Visual Studio Community 2017  [https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio]
 
 2. Download the repo from github and open the Sln file
 
