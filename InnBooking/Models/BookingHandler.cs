@@ -219,6 +219,7 @@ personCount, luggageCount);
             BookingHandler.CreateFakeBooking();
             List<Rooms> availableroomList = new List<Rooms>();
             List<int> potentialrooomList = new List<int>();
+            //see if there is space in booked rooms
             foreach (RoomBooking rb in roomBookings)
             {
                 Rooms availableroom = new Rooms();
@@ -311,7 +312,7 @@ personCount, luggageCount);
             {
                 if (peopleCount <= GetMaxNumberofPplInInn() && luggageCount <= GetMaxNumberofLuggagesInInn())
                 {
-
+                    // Check if space is available in booked rooms
                     foreach (RoomBooking rb in roomBookings)
                     {
                         int roomCapacity = CheckifBookingHasSpaceforPerson(rb.NumberofPPl, rb.RoomNumber);
