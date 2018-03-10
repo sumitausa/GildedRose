@@ -123,6 +123,7 @@ namespace InnBooking.Models
             return maxLuggage;
         }
 
+        //Setting this up for the future, not used now
         private void AddBooking(DateTime checkinDate, DateTime checkOutDate, int luggageCount, int personCount)
         {
             foreach (Rooms rm in roomList)
@@ -138,6 +139,7 @@ checkOutDate, personCount, luggageCount);
             }
         }
 
+         //Setting this up for the future, not used now
         private void AlterBooking(DateTime checkinDate, DateTime checkOutDate, int roomNumber, int luggageCount, int
 
 personCount)
