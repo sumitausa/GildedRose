@@ -44,16 +44,16 @@ I chose these tools since they are the most I am familiar with and they can easi
 
 1. The system has some fake data set up in it , so you can test the various endpoints by giving today's date as a parameter.
 
-2. The system's enpoints have all the parameters as required parameters.
+2. The system's endpoints have all the parameters as required parameters.
 
 3. The ViewBookings will give an error message if there was an issue with the booking 
     * -2 : Error code if you enter a number greater than inn's max number of ppl or max number of luggages
     * -3 : Try to book a date in the past
     * -1 : Could not book a room for a given date/person/luggage/requirements
     
-4. The system only checks if the cleaning gnome can get to a room based on a day. It doesnt take any priority of rooms into    considertation.   There is a table that stores the gnome's id and gnome's max hours and we can use that in the future to build out more gnomes or where each gnome can work different number of max hours
+4. The system checks if the cleaning gnome can get to a room based on a day.There is a table that stores the gnome's id and gnome's max hours and we can use that in the future to build out more gnomes or where each gnome can work different number of max hours
 
-5. The system doesnt provide a way to book the room, it only provides a way to view avialability of rooms aka see which rooms have space or luggage space availability given a date,  gives a list of rooms we can book given the date,person count and luggage count, also provides the list of rooms the gnome can clean given the date
+5. The system doesnt provide a way to book the room, it only provides the three things as per spec..a way to view avialability of rooms aka see which rooms have space or luggage space availability given a date,  gives a list of rooms we can book given the date,person count and luggage count, also provides the list of rooms the gnome can clean given the date
 
 6. The system assumes the gnome cleans after the rooms are vacated
 
@@ -83,7 +83,6 @@ There are so many improvements to be made to the project if I had unlimited time
 8. Set the max number of years we can reserve in advance? (limit it to a confugured value)
 
 
-
 ## Automated testing
-   The API can be tested by writing scripts that can curl into the endpoints and check for the objects that are expected with the current code. If there was no fake data in the project, seperate out the testing of the api as a seperate visual studio project that references the code base and does the faking of the data/database values.
+   The API can be tested by writing scripts that can curl into the endpoints and check for the objects that are expected with the current code.Sepearte out the fake data into a seperate visual studio project that references the code base and has functions that test the various business logic. 
     
